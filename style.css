@@ -3,3 +3,63 @@ body {
   height: 100%;
   margin: 0;
 }
+
+h1 {
+  text-align:center;
+}
+
+#featured-property img {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+nav{
+  text-align: center;
+  display: block;
+  background-color:rgba(0, 97, 73, 0.356)
+}
+
+nav a{
+  display: inline-block;
+  margin: 0 5px;
+  padding: 5px;
+}
+
+a:visited{
+  color:purple;
+}
+
+a{
+  padding:10px;
+  color:blue;
+}
+
+a:hover{
+  background-color: white;
+  padding:1px;
+}
+#details div{
+  float: left;
+  background-color: red;
+  text-align: center;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+figcaption{
+  text-align: center;
+  font-size: small;
+}
+
+#featured-property p{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  padding:5px;
+  text-align: center;
+}
